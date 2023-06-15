@@ -1,0 +1,65 @@
+* {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0; /*Sem margem*/
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 30px 30px 30px 150px;
+  color: #0d94bd;
+  font-size: 25px;
+  text-transform: uppercase; /*conteudo em letra maiuscula*/
+  text-align: auto;
+}
+table {
+  /* border: 1px solid black; esse conceito polui a tabela*/
+  border-collapse: collapse; /*Junta as bordas, tirando o efeito de linha dupla*/
+  width: 80%;
+  margin: 30px auto;
+  color: #333;
+}
+thead th {
+  height: 40px;
+  background-color: #0d94bd;
+  color: #fff;
+  text-transform: uppercase; /*conteudo em letra maiuscula*/
+  font-weight: bold; /*peso da fonte*/
+}
+th,
+td {
+  padding: 5px; /*espaçamento interno*/
+  font-size: 14px;
+}
+tbody tr {
+  height: 60px;
+}
+tbody tr:hover {
+  background-color: #d9d9d9;
+  cursor: pointer; /*cria a maozinha do mouse*/
+}
+tfoot td {
+  border-top: 20px solid #0d94bd;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 900;
+}
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2c2;
+}
+th:nth-child(odd),
+td:nth-child(odd) {
+  text-align: center;
+  width: 20%;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Esse conceito polui a tabela
+td,th {
+  border: 1px solid black;
+}*/

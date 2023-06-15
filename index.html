@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;900&family=Nunito+Sans&family=Open+Sans:ital,wght@1,600&family=Quicksand:wght@500;600&family=Sacramento&family=Taviraj:ital,wght@0,200;0,300;1,400&family=Tenali+Ramakrishna&family=Turret+Road:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Criando tabelas</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <h1>Tabela de Linguagens</h1>
+    <!--Inicio da tabela-->
+    <table>
+      <!--evitar colocar o  border="1" dentro da tag table, não se usa mais-->
+      <!--primeira linha-->
+      <thead>
+        <!--thead indica cabeçalho da tabela-->
+        <!--th é o cabeçalho da tabela-->
+        <tr>
+          <th>Linguagem</th>
+          <th>Descrição</th>
+          <th>Ano de lançamento</th>
+        </tr>
+        <!--fim da primeira linha-->
+      </thead>
+      <tbody>
+        <!--corpo da tabela-->
+        <tr>
+          <td>HTML</td>
+          <td>Linguagem de marcação utilizada para criar páginas Web</td>
+          <td>1993</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Linguagem de estilizar páginas Web</td>
+          <td>1996</td>
+        </tr>
+        <tr>
+          <td>JAVASCRIPT</td>
+          <td>
+            Linguagem de programação utilizada para criar interatividade em
+            páginas Web
+          </td>
+          <td>1995</td>
+        </tr>
+        <tr>
+          <td>JAVASCRIPT</td>
+          <td>
+            Linguagem de programação de alto nível usada para desenvolvimento
+            web, análise de dados, inteligência artificial e outros fins.
+          </td>
+          <td>1991</td>
+        </tr>
+        <tr>
+          <td>PHP</td>
+          <td>
+            Linguagem de programação utilizada para desenvolvimento Web do lado
+            do servidor
+          </td>
+          <td>1995</td>
+        </tr>
+      </tbody>
+      <!--fim do corpo da tabela-->
+      <tfoot>
+        <!--rodapé da tabela-->
+        <tr>
+          <td colspan="3">
+            Fonte:
+            <a href="https://www.fiap.com.br">fiap.com.br</a>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!--fim da tabela-->
+  </body>
+</html>
